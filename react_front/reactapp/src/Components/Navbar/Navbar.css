@@ -1,0 +1,75 @@
+.svg-fw {
+    fill: var(--white);
+}
+
+.Navbar_Container {
+    background-color: var(--green);
+    color: var(--white);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Navbar_options {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.link_title {
+    margin: 0;
+    color: var(--white);
+    text-decoration: none;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.dropdown_btn {
+    width: 50%;
+    height: 30px;
+    background-color: var(--white);
+    border: none;
+    font-size: 20px;
+    color: var(--green);
+    border-radius: 5px;
+}
+
+.dropdown_btn img {
+    float: right;
+}
+
+.courses_list_area {
+    margin: 0;
+    padding: 0;
+    color: black;
+    transform: translate3d(707%, -5px, 0px);
+    width: 10%;
+    background-color: var(--white);
+    box-shadow: 0px 1px 6px 2px grey;
+}
+
+.courses_list_area p {
+    /* color: black; */
+    padding-left: 4%;
+}
+
+.course_area {
+    display: flex;
+    padding-top: 5%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+.course_area img {
+    margin-left: 0;
+}
+
+.course_area:hover {
+    color: var(--green);
+}

@@ -1,0 +1,14 @@
+:root {
+    --white: #fff;
+    --green: #50b167;
+}
+
+body {
+    margin: 0;
+}
+
+.create_Couse_bg {
+    background-image: linear-gradient( 136deg, #50b167, #1a806c);
+    height: 763px;
+    margin: 0;
+}
